@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "7"
+  - "6.9"
+  - "stable"
+
+before_install: npm install -g @nathanfaucett/task-cli
+
+script: 'task jshint'
